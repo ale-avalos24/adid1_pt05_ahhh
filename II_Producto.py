@@ -2,7 +2,7 @@
 def producto():
     try:
         n = int(input("Ingresa la cantidad de números a multiplicar: "))
-        producto= 0
+        producto= 1
 
         for i in range(n):
             numero = float(input(f"Ingrese el número {i+1}: "))
