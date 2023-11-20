@@ -6,7 +6,7 @@ def producto():
 
         for i in range(n):
             numero = float(input(f"Ingrese el número {i+1}: "))
-            producto = producto + numero
+            producto = producto * numero
 
         print(f"El producto de los {n} números ingresados es: {producto} ")
 
